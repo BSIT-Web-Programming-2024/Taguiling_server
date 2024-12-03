@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+    <nav>
+        <a href="#" class="logo"><span>Christine</span></a>
+
+        <ul class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#services">Services</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>
+            
+        </ul>
+
+        <i class='bx bx-menu' id="menu"></i>
+
+        <a href="#contact" class="btn">Contact Me</a>
+
+    </nav>
+
+    <section id="home">
+            <img src="main.jpg.jpg" alt="">
+            <div class="info-box">
+                <h1><span>Hello, I'm Tinny</span></h1>
+                <h3><span>Proud Igorota </span> </h3>
+                <p>A student of Data Center College of the Philippines taking up Bachelor of Science Information Technology major in Web Design. I am not good at my major but I am willing and striving to learn more about Web designing.</p>
+
+            </div>
+
+            <div class="btn-box">
+                <a href="hart.jpg" target="_blank" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Contact</a>
+
+
+            </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="main.jpg.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>Currently Studying at Data Center College of the Philippines. A third year college student aspiring to become a programmer. Still learning and gathering new and amazing ideas about Web design.</p>
+            
+        </div>
+
+    </section>
+
+    <section id="hobbies">
+        <h1 class="header"><Span>Hobbies</Span></h1>
+        
+        
+        <div class="services-container">
+        
+            <div class="box">
+                <h1><span>Watching KDramas</span></h1>
+                <p>Watching Kdrama is one of my favorite thing to do when I feel like I am alone. It helps me to think otherwise instead of thinking boring things.</p>
+        
+                    <img src="nuod.jpg" alt="">
+            </div>
+        
+            <div class="box">
+                <h1><span>Traveling</span></h1>
+                <p>Traveling is one of the best activity for me because I get to enjoy new places new sceneries and new adventure. Meeting new people and just enjoying my life to the fullest. </p>
+        
+                    <img src="eruplano.jpg" alt="">
+            </div>
+        
+            <div class="box">
+                <h1><span>Listening to Music</span></h1>
+                <p>Listening to music is a big help to me. Whenever I do things like cleaning the house or just doing nothing, I used to listen music because music is just vibing</p>
+        
+                    <img src="tugtug.jpg" alt="">
+            </div>
+            <div class="box">
+                <h1><span>Eating Streetfoods</span></h1>
+                <p>Eating street food is a very favourite hobby of mine. It just satisfy all my cavings.</p>
+        
+                    <img src="tusok.jpg" alt="">
+            </div>
+        </div>
+        
+        </section>
+
+<section id="services">
+<h1 class="header"><Span>Services</Span></h1>
+
+
+<div class="services-container">
+
+    <div class="box">
+        <h1><span>Photo Edit</span></h1>
+        <p>It is used to crop and touch up photos, as well as organize them into albums and slide shows.</p>
+
+            <img src="image.jpg" alt="">
+    </div>
+
+    <div class="box">
+        <h1><span>Content Creation</span></h1>
+        <p>Someone who creates content for the public, such as educational or entertaining material, for any medium or channel.</p>
+
+            <img src="img.png" alt="">
+    </div>
+
+    <div class="box">
+        <h1><span>Digital creator</span></h1>
+        <p> A digital creator is someone who focuses on building a community of followers, engaging with their audience, and sharing their often unique perspective on a subject. </p>
+
+            <img src="dig.jpg" alt="">
+    </div>
+</div>
+
+</section>
+
+<section id="project">
+    <h1 class="header"><Span>Projects</Span></h1>
+    <div class="services-container">
+
+        <div class="box">
+            <h1><span>set sun</span></h1>
+            <p>"Sunsets are my escape into the reality I want to continuously live.</p>
+    
+                <img src="set sun.jpg" alt="">
+        </div>
+    
+        <div class="box">
+            <h1><span>sun set</span></h1>
+            <p>Sunsets are so beautiful that they almost seem as if we were looking through the gates of heaven.</p>
+    
+                <img src="sun set.jpg" alt="">
+        </div>
+    
+        <div class="box">
+            <h1><span>sunset</span></h1>
+            <p>There's nothing like a beautiful sunset to end a healthy day.</p>
+    
+                <img src="sunset.jpg" alt="">
+                
+        </div>
+        
+        <div class="box">
+            <h1><span>sunsets</span></h1>
+            <p>When the sun is setting, leave whatever you are doing and watch it.</p>
+    
+                <img src="sunsets.jpg" alt="">
+        </div>
+    
+        
+    </div>
+</section>
+
+
+
+
+<section id="contact">
+
+    <h1 class="header"><span>Contact</span></h1>
+
+    <form action="submit_contact.php" method="POST">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="message">Message:</label>
+      <input type="message" id="message" name="message" required>
+    
+      <button type="submit">Submit</button>
+  </form>
+
+</section>
+
+<footer>
+
+        <div class="col-left">
+            <div class="col-box">
+                <span><i class='bx bxs-location-plus' ></i></span>
+                <span>Loakan Magsaysay Proper Baguio City, Philippines</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bxs-phone'></i></span>
+                <span>+639851164654</span>
+            </div>
+
+            <div class="col-box">
+                <span><i class='bx bxs-envelope'></i></span>
+                <span>titantinny@gmail.com</span>
+            </div>
+        </div>
+        <div class="col-right">
+        <span>About My Services</span>
+        <p>Thank you for visiting my website. You can get updates on my projects if you follow me to this following accounts. </p>
+
+        <div class="social-icons">
+
+             <a href="https://www.instagram.com/tinnyy_tinee/" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+             <a href="https://www.facebook.com/christine.taguiling" target="_blank"><i class="bx bxl-facebook"></i></a>
+             <a href="https://t.me/Tine_tinny" target="_blank"><i class="bx bxl-telegram"></i></a>
+             <a href="http://discordapp.com/users/1279056912561868862" target="_blank"><i class="bx bxl-discord"></i></a>
+                
+
+    </div>
+</div>
+
+</footer>
+
+  
+
+    <script src="script.js"></script>
+  </body>
+</html>
